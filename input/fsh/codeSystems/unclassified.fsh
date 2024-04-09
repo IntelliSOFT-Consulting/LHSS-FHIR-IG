@@ -31,4 +31,15 @@ Description:  "CodeSystem for the Cross border Facilities"
 * ^caseSensitive = false
 * ^name = "CBFACILITIESCDSYS"
 
-* #DE1 "Busia"
+* #DE1 "Busia County Referral Hospital"
+* #DE2 "Moding Health Center"
+* #DE3 "Amase Dispensary"
+* #DE4 "Alupe Sub County Hospital"
+* #DE5 "Nangina Dispensary"
+* #DE6 "Sio Port Sub-County Hospital "
+* #DE7 "Busembe Dispensary"
+* #DE8 "Rumbiye Dispensary"
+* #DE9 "Tanaka Nursing Home "
+* #DE10 "Rukala Model Health Center"
+
+

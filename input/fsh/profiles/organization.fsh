@@ -4,3 +4,4 @@ Description: "A formally or informally recognized grouping of people or organiza
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
 * name 1..1 MS
+* name from cbFacilitiesVS
