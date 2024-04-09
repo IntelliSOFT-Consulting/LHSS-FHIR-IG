@@ -11,7 +11,7 @@ Description: "An example profile of the Patient resource."
 * gender from genderVS 
 * maritalStatus 1..1 MS
 * maritalStatus from maritalStatusVS
-* managingOrganization 0..1 MS
+* managingOrganization only Reference(CbFacilities)
 
 
 Instance: PatientExample
