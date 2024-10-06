@@ -6,10 +6,10 @@ Description:  "CodeSystem for the Marital Status"
 * ^caseSensitive = false
 * ^name = "MARITALSTATUSCDSYS"
 
-* #DE1 "SINGLE"
-* #DE2 "MARRIED"
-* #DE3 "DIVORCED"
-* #DE4 "WIDOWED"
+* #DE1 "single"
+* #DE2 "married"
+* #DE3 "divorced"
+* #DE4 "widowed"
 
 CodeSystem:   ADMINSTRATIVEGENDER
 Title:        "CodeSystem for the Administrative gender"
@@ -19,8 +19,8 @@ Description:  "CodeSystem for the Administrative gender"
 * ^caseSensitive = false
 * ^name = "ADMINSTRATIVEGENDERCDSYS"
 
-* #DE1 "MALE"
-* #DE2 "FEMALE"
+* #DE1 "male"
+* #DE2 "female"
 
 
 CodeSystem:   CBFACILITIES

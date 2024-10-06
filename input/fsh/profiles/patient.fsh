@@ -1,25 +1,25 @@
-Profile: CBPatient
+Profile: CB-Patient
 Parent: Patient
 Description: "An example profile of the Patient resource."
+* identifier.use 1..1 MS
+* identifier.type.coding.code 1..1 MS
+* identifier.type.text 1..1 MS
 * identifier.system 1..1 MS
 * identifier.value 1..1 MS
+* active 1..1 MS
 * name.family 1..1 MS
 * name.given 1..1 MS
-* birthDate 1..1 MS
+* name.given 1..1 MS
 * gender 1..1 MS
+* gender from genderVS
 * gender ^short = "Male | Female"
-* gender from genderVS 
-* maritalStatus 1..1 MS
 * maritalStatus from maritalStatusVS
+* birthDate 1..1 MS
 * managingOrganization only Reference(CbFacilities)
+* deceasedBoolean 1..1 MS
 
 
-Instance: PatientExample
-InstanceOf: CBPatient
-Description: "An example of a patient with a license to krill."
-* name
-  * given[0] = "James"
-  * family = "Pond"
-* gender = #MALE
-* birthDate = "1993-06-03"
-* maritalStatus = #SINGLE
+// Instance: CBPatientExample
+// InstanceOf: CB-Patient
+// Description: "An example of a patient with a license to krill."
+
